@@ -452,40 +452,40 @@ ul{
 
 @media screen and (max-height: 290px){
   .main-view-top {
-      display: none;
+    display: none;
   }
 
   .main-view .main-view-menu {
-      margin-top: 0px;
+    margin-top: 0px;
   }
 }
 
 @media screen and (min-width: 576px){
   .main-view, .main-view-top {
-      width: calc(100% - 230px);
+    width: calc(100% - 230px);
   }
 }
 
 @media screen and (min-width: 768px) {
   .main-view .music-gallery-container .music-container{
-      justify-content: flex-start;
+    justify-content: flex-start;
   }
 
   .main-view .music-gallery-container .music-container .music-item{
-      width: calc(25% - 8px);
-      margin-left: 8px;
+    width: calc(25% - 8px);
+    margin-left: 8px;
   }
 }
 
 @media screen and (min-width: 992px){
   .main-view .music-gallery-container .music-container .music-item{
-      width: calc(100% / 6 - 10px);
-      max-width: 190px;
-      margin-left: 10px;
+    width: calc(100% / 6 - 10px);
+    max-width: 190px;
+    margin-left: 10px;
   }
 
   .main-view .music-gallery-container .recently-played .music-container{
-      justify-content: space-between;
+    justify-content: space-between;
   }
 }
 
